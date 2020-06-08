@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <!--font awesome cdn-->
+    <title>To do list</title>
+</head>
+
+<body>
+
+    <!-- <div class="container my-5 heading">
+        <div class="title text-center mx-auto">
+            <p class="text-white display-3">To-Do List</p>
+        </div>
+    </div> -->
+
+    <form class="search text-center my-4">
+        <input type="text" class="form-control mx-auto" name="add" placeholder="Search">
+    </form>
+
+    <ul class="list-group todos mx-auto">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Item 1</span>
+            <i class="fas fa-trash-alt delete"></i>
+        </li>
+
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Item 2</span>
+            <i class="fas fa-trash-alt delete"></i>
+        </li>
+
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Item 3</span>
+            <i class="fas fa-trash-alt delete"></i>
+        </li>
+    </ul>
+
+
+    <form class="add text-center my-4">
+        <label for="addnew" class="text-white">Add new</label>
+        <input type="text" class="form-control mx-auto" name="add">
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

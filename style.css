@@ -1,0 +1,36 @@
+body{
+    background: royalblue;
+}
+
+.list-group{
+    width: 500px;
+}
+
+li{
+    height: 60px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+
+ul{ 
+    display: inline-block;
+}
+
+.delete{
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+.input{
+    width: 500px;
+    height: 100px;
+}
+
+.form-control{
+    height: 60px;
+    width: 500px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
